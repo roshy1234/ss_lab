@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main() {
+void main() {
     FILE *input;
     input = fopen("object.txt", "r");
 
@@ -85,5 +85,4 @@ int main() {
     }
 
     fclose(input);
-    return 0;
 }
