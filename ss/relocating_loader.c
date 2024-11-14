@@ -100,5 +100,5 @@ void convert(char h[12]) {
             case 'F':
             strcat(bit, "1111");break;
             }
-    }
-} 
+        }
+    } 
